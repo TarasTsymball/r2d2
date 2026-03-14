@@ -1,0 +1,2 @@
+python patch.py "bot-token" "user-id" "name-pc" "railway-server-url"
+python -m PyInstaller --onefile --noconsole --name "tg_[name-pc]" tg_build.py
