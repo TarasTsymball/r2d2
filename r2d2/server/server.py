@@ -47,26 +47,37 @@ One bot - all PCs!
 *Commands:*
 /screenshot - screen capture
 /webcam - webcam photo
+/audio - record mic (default 5s)
+/video - record webcam (default 5s)
+/keylog - record keypresses (default 30s)
+/clipboard - get clipboard content
+/activewindow - active window title
+/processes - all processes
+/ls - list files
+/download - download file to TG
+/delete - delete file
+/ip - local + public IP
+/wifi - nearby WiFi networks
+/netstat - active connections
 /sysinfo - CPU, RAM, disk
-/volume\\_up - volume +10%
-/volume\\_down - volume -10%
-/mute - toggle mute
-/run `cmd` - run in terminal
-/open `url` - open website
-/lock - lock screen
-/sleep - sleep mode
-/restart - restart PC
-/shutdown - shutdown
-/pcs - show online PCs
+/kill - kill process
+/startup - startup programs
+/installed - installed apps
+/volume\\_up /volume\\_down /mute
+/run - run terminal command
+/open - open website
+/lock /sleep /restart /shutdown
+/pcs - online PCs
 /stop - stop script
 /help - this menu
 
 *Examples:*
 `/screenshot home`
-`/webcam friend`
-`/sysinfo all`
-`/run home ipconfig`
-`/open work google.com`
+`/audio home 10`
+`/video home 15`
+`/keylog home 30`
+`/download home C:\\file.txt`
+`/kill home chrome.exe`
 """
 
 
